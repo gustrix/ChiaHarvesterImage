@@ -22,8 +22,21 @@ The data is presented with the oldest in the upper-left and the newest on the lo
 
 3. Run with a log file.
 
-You can use an optional HTML template to present the information. An example is included.
+```
+Usage:
 
+SpiceHarvester <input debug.log> <output image.png> [optional template.html]
+    Normally, stats will be sent to stdout but they can also be used with a template.
+    If a template is specified, then these placeholders will be replaced by values:
+        %img%         Your image filename
+        %best%        Best response time (ms)
+        %worst%       Worst response time (ms)
+        %avg%         The average response time (ms)
+        %efficiency%  How much harvesting was achieved
+        %proofs%      Number of proofs found
+```
+
+An example HTML template is included.
 
 # Example for Debian Linux
 
