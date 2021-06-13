@@ -10,6 +10,10 @@ It has been tested on Windows 10 and Debian Linux.
 
 Your harvester should get challenge messages at a rate of 64 per 10 minutes. This program scans a log file and determines if your harvester is matching that expected rate.
 
+It generates a 640x360 16:9 image with a resolution of 80x60, using 8x6 rectangles. Each rectangle represents one minute, so each column is one hour.
+
+The data is presented with the oldest in the upper-left and the newest on the lower-right.
+
 # Installation
 
 1. Install .NET Core 5.0 SDK for your platform.
