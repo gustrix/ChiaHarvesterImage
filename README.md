@@ -1,5 +1,5 @@
 # Chia Harvester Image
-Create a visual graph of Chia network harvesting activity.
+Create a visual representation of Chia network harvesting activity.
 
 ![screenshot](https://github.com/gustrix/ChiaHarvesterImage/blob/master/screenshot.png)
 
